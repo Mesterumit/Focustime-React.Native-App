@@ -1,5 +1,5 @@
 {
-  "main": "expo/AppEntry.js",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -7,13 +7,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.28",
+    "@expo/config-plugins": "~8.0.0",
+    "@expo/metro-config": "~0.18.11",
+    "@expo/prebuild-config": "~7.0.0",
+    "@expo/vector-icons": "^14.0.2",
+    "expo": "^51.0.34",
+    "expo-keep-awake": "~13.0.2",
+    "expo-modules-autolinking": "~1.11.0",
     "expo-status-bar": "~1.12.1",
+    "metro-config": "^0.80.12",
     "react": "18.2.0",
     "react-native": "0.74.5",
-    "@expo/vector-icons": "^14.0.2",
-    "react-native-paper": "4.11.2",
-    "expo-keep-awake": "~13.0.2"
+    "react-native-paper": "4.11.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
